@@ -1,0 +1,40 @@
+
+$wrap: 1920px
+$container: 1400px
+$menu: #292929 // цвет ссылок в шапке
+$text: #484848 //общий цвет текста
+$green: #01996D  //другой цвет
+$mc: 0 auto
+$fz: 20px //размер шрифта
+
+.wrapper
+    min-height: 100%
+    display: flex
+    flex-direction: column
+    overflow: hidden
+.container
+    max-width: $container
+    padding: 0 15px
+    margin: $mc
+html,
+body
+    height: 100%
+    line-height: 1
+    color: $text
+    font-size: $fz
+    font-family: 'Lato', sans-serif
+.main 
+    flex: 1 1 auto
+
+.btn
+    background: #01996D
+    border: 1px solid #01996D
+    border-radius: 4px
+    padding: 13px 50px
+    font-weight: 400
+    line-height: 25px
+    color: #FFFFFF
+    transition: 0.3s
+    cursor: pointer
+    &:hover
+        background: #2cb68f
